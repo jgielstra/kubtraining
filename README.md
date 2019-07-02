@@ -2,10 +2,9 @@
 This is a basic training course for kubernetes. It will use a mix of off the shelf materials and customized ones for cortex developers.
 
 ## Lessons
-1. Installing kubernetes
+1. [Installing kubernetes](./1-installing/README.md)
       * asdf - install and manage: kubectl, helm, minikube
-      * Docker for MAC
-      * Minikube
+      * Minikube ****
 2. Kubernetes basics
       * Using kubectl
       * Connecting to a cluster
@@ -20,9 +19,9 @@ This is a basic training course for kubernetes. It will use a mix of off the she
           - Role bindings
       * Port forwarding
 3. Developing on Kubernetes
-    - basic infra structure
-    - opening ports
-    - redirect services to IDE
+    - Basic infra structure
+    - Opening ports
+    - Redirect services to IDE
 4. Using Helm
     * Helm basics
 5. Developing Helm charts
@@ -46,7 +45,12 @@ This is a basic training course for kubernetes. It will use a mix of off the she
     - Custom resource definitions
     - Controllers
     - APIS
+    - Kubebuilder/operators
 9. CI/CD with kuberenetes
   - Blue/green deployments
   - Spinnaker
-  
+
+
+## Reference
+- https://kubernetes.io/docs/tutorials/kubernetes-basics/
+- 12 factor apps
