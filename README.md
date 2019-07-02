@@ -5,7 +5,7 @@ This is a basic training course for kubernetes. It will use a mix of off the she
 1. [Installing kubernetes](./1-installing/README.md)
       * asdf - install and manage command line utilities: kubectl, helm, minikube
       * Minikube startup and usuage
-2. [Kubernetes basics])./2-basics/README.md)
+2. [Kubernetes basics](./2-basics/README.md)
       * Using kubectl
       * Connecting to a cluster
       * Common resources
